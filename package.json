@@ -1,0 +1,58 @@
+{
+  "name": "quinoa-manylines",
+  "version": "0.0.1",
+  "description": "Example of Quinoa usage to replicate manylines' narrations.",
+  "main": "./src/main.js",
+  "scripts": {
+    "dev": "kotatsu serve --config ./webpack.config.js --progress --babel --index ./index.html --public ./ ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medialab/quinoa-manylines.git"
+  },
+  "keywords": [
+    "quinoa",
+    "manylines",
+    "graph",
+    "editor"
+  ],
+  "contributors": [
+    {
+      "name": "Guillaume Plique",
+      "url": "https://github.com/Yomguithereal"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medialab/quinoa/issues"
+  },
+  "homepage": "https://github.com/medialab/quinoa#readme",
+  "dependencies": {
+    "@yomguithereal/react-utilities": "^1.2.2",
+    "normalize.css": "^4.2.0",
+    "quinoa": "git+https://github.com/medialab/quinoa.git",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "kotatsu": "^0.14.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
+  },
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ],
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
